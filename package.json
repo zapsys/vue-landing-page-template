@@ -1,0 +1,31 @@
+{
+  "name": "site-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fontsource-variable/source-code-pro": "^5.2.5",
+    "@phosphor-icons/vue": "^2.2.1",
+    "@tailwindcss/vite": "^4.1.1",
+    "@vueuse/core": "^13.0.0",
+    "aos": "^3.0.0-beta.6",
+    "daisyui": "^5.0.12",
+    "maska": "^3.1.1",
+    "tailwindcss": "^4.1.1",
+    "vue": "^3.5.13",
+    "vue3-google-map": "^0.21.1",
+    "yaml-loader": "^0.8.1"
+  },
+  "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.1.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.5",
+    "vite-plugin-html": "^3.2.2"
+  }
+}
