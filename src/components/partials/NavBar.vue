@@ -47,7 +47,8 @@
       <ul class="menu bg-base-200 min-h-full w-80 p-4">
         <li>
           <a class="btn btn-ghost text-xl hover:bg-transparent" :href="navbar.links[0].link" data-active="true">
-            <img :src="navbar.logo" alt="Logo" class="size-12 p-2" /> {{ navbar.brand }}
+            <img v-if="navbar.logo != ''" :src="navbar.logo" alt="Logo" class="w-12 h-12 p-1" />
+            <img v-else src="/assets/vue.svg" alt="Logo" class="w-12 h-12 p-1" /> {{ navbar.brand }}
           </a>
         </li>
         <li v-for="(link, index) in navbar.links" :key="index">
