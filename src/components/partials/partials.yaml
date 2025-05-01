@@ -29,7 +29,7 @@ empresa:
   nome: 'Sua empresa'
   endereco: 'Rua Exemplo, 123, Cidade, Estado, CEP 12345-678'
   telefone: '+55 (11) 1234-5678'
-  copyright: 'Sua empresa. Todos os direitos reservados.'
+  copyright: 'Todos os direitos reservados.'
   email: 'contato@suaempresa.com.br'
   cnpj: '12.345.678/0001-00'
   website: ''
