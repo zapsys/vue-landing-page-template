@@ -16,7 +16,7 @@
     </div>
     <nav class="grid grid-cols-1 place-content-center gap-4 md:place-self-center md:justify-self-end">
       <div class="flex flex-row items-center justify-center">
-        <a v-for="(item, index) in social" :href="item.link" target="_blank" :title="item.nome"
+        <a class="px-1" v-for="(item, index) in social" :href="item.link" target="_blank" :title="item.nome"
           rel="noopener noreferrer" :key="index">
           <PhTwitterLogo class="text-blue-500 size-8 cursor-pointer" v-if="index == 0" />
           <PhYoutubeLogo class="text-red-500 size-8 cursor-pointer" v-if="index == 1" />
