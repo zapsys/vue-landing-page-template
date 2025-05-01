@@ -33,7 +33,7 @@ export default defineConfig({
           SITE_URL: 'https://suaempresa.com.br',
           SITE_AUTHOR: 'Zap Websites',
           SITE_IMAGE: 'https://dummyjson.com/image/600x300?text=Seu%20banner',
-          SITE_ICON: '/assets/favcon.ico',
+          SITE_ICON: '/assets/favicon.ico',
           SITE_THEME_COLOR: 'rgba(0, 0, 0, 0.8)',
           FACEBOOK_URL: 'https://facebook.com/suaempresa',
           TWITTER_URL: 'https://x.com/suaempresa'
