@@ -16,7 +16,8 @@ Decidi desenvolver esse template devido à falta de soluções completas e funci
 - [Vite](https://vite.dev/guide/) - Build Tool for the web
 - [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
 - [daisyUI](https://daisyui.com/docs/intro/) - TailwindCSS plugin for faster, easer and cleaner development
-- [Phosphor Icons](https://phosphoricons.com/) - A flexible icon family for interfaces, diagrams, presentations
+- ~~[Phosphor Icons](https://phosphoricons.com/) - A flexible icon family for interfaces, diagrams, presentations~~ [removido]
+- [Iconify](https://iconify.design/) - All popular icon sets, one framework [adicionado]
 - [maska](https://beholdr.github.io/maska/v3/#/) - Simple zero-dependency input mask library
 - [vite-plugin-yaml](https://github.com/Modyfi/vite-plugin-yaml) - Transform YAML file into Javascript object
 - [vite-html-plugin](https://www.npmjs.com/package/vite-plugin-html-template) - A vite plugin for processing html
