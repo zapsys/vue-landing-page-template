@@ -18,16 +18,16 @@
       <div class="flex flex-row items-center justify-center">
         <a class="px-1" v-for="(item, index) in social" :href="item.link" target="_blank" :title="item.nome"
           rel="noopener noreferrer" :key="index">
-          <PhTwitterLogo class="text-blue-500 size-8 cursor-pointer" v-if="index == 0" />
-          <PhYoutubeLogo class="text-red-500 size-8 cursor-pointer" v-if="index == 1" />
-          <PhInstagramLogo class="text-rose-500 size-8 cursor-pointer" v-if="index == 2" />
+          <Icon icon="ph:twitter-logo" class="text-blue-500 size-8 cursor-pointer" v-if="index == 0" />
+          <Icon icon="ph:youtube-logo" class="text-red-500 size-8 cursor-pointer" v-if="index == 1" />
+          <Icon icon="ph:instagram-logo" class="text-rose-500 size-8 cursor-pointer" v-if="index == 2" />
         </a>
       </div>
     </nav>
   </div>
 </template>
 <script setup>
-import { PhTwitterLogo, PhInstagramLogo, PhYoutubeLogo } from '@phosphor-icons/vue'
+import { Icon } from '@iconify/vue'
 import Item from './partials.yaml'
 import ScrollToTop from './ScrollToTop.vue'
 

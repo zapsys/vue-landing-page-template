@@ -7,7 +7,7 @@
         <div class="navbar-start">
           <div class="flex-none lg:hidden">
             <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
-              <PhList class="inline-block size-6 stroke-current" />
+              <Icon icon="ph:list" class="inline-block size-6 stroke-current" />
             </label>
           </div>
           <div class="flex-none items-center justify-center">
@@ -29,14 +29,14 @@
         <div class="navbar-end hidden items-center md:flex lg:flex xl:flex">
           <p class="px-4">
             <a :href="empresa.github" target="_blank" rel="noopener noreferrer" title="Mais detalhes sobre o projeto">
-              <PhGithubLogo class="size-6 cursor-pointer" />
+              <Icon icon="ph:github-logo" class="size-6 cursor-pointer" />
             </a>
           </p>
           <p class="px-4">
             <label class="swap swap-rotate">
               <!-- this hidden checkbox controls the state -->
-              <PhSun class="text-yellow-300 size-6 cursor-pointer" @click="toggleDark()" v-if="isDark" />
-              <PhMoon class="text-gray-700 size-6 cursor-pointer" @click="toggleDark()" v-else />
+              <Icon icon="ph:sun-bold" class="text-yellow-300 size-6 cursor-pointer" @click="toggleDark()" v-if="isDark" />
+              <Icon icon="ph:moon-bold"  class="text-gray-700 size-6 cursor-pointer" @click="toggleDark()" v-else />
             </label>
           </p>
         </div>
@@ -61,13 +61,13 @@
         <li>
           <label class="swap swap-rotate place-content-start">
             <!-- this hidden checkbox controls the state -->
-            <PhSun class="text-yellow-300 size-6 cursor-pointer" @click="toggleDark()" v-if="isDark" />
-            <PhMoon class="text-gray-700 size-6 cursor-pointer" @click="toggleDark()" v-else />
+            <Icon icon="ph:sun-bold" class="text-yellow-300 size-6 cursor-pointer" @click="toggleDark()" v-if="isDark" />
+            <Icon icon="ph:moon-bold" class="text-gray-700 size-6 cursor-pointer" @click="toggleDark()" v-else />
           </label>
         </li>
         <li>
           <a :href="empresa.github" target="_blank" rel="noopener noreferrer" title="Mais detalhes sobre o projeto">
-            <PhGithubLogo class="size-6 cursor-pointer" />
+            <Icon icon="ph:github-logo" class="size-6 cursor-pointer" />
           </a>
         </li>
       </ul>
@@ -77,7 +77,7 @@
 </template>
 <script setup>
 import { onMounted, watch } from 'vue'
-import { PhList, PhSun, PhMoon, PhGithubLogo } from '@phosphor-icons/vue'
+import { Icon } from '@iconify/vue'
 import { useDark, useToggle } from "@vueuse/core"
 import Item from './partials.yaml'
 

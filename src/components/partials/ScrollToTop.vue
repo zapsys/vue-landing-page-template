@@ -2,13 +2,13 @@
   <div id="scrollToTop" class="sticky w-full flex justify-end bottom-0 py-3 pr-5 bg-base-200">
     <div class="text-gray-400 hover:text-blue-400 transition">
       <button @click="scrollToTop" class="btn btn-circle btn-primary" title="Voltar ao topo">
-        <PhCaretUp class="text-white size-8 cursor-pointer" />
+        <Icon icon="ph:caret-up" class="text-white size-8 cursor-pointer" />
       </button>
     </div>
   </div>
 </template>
 <script setup>
-import { PhCaretUp } from '@phosphor-icons/vue'
+import { Icon } from '@iconify/vue'
 </script>
 <script>
 export default {
