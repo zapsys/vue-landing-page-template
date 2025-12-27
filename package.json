@@ -19,6 +19,7 @@
     "maska": "^3.1.1",
     "tailwindcss": "^4.1.1",
     "vue": "^3.5.13",
+    "vue-router": "^4.6.4",
     "vue3-google-map": "^0.21.1",
     "yaml-loader": "^0.8.1"
   },
