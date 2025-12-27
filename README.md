@@ -16,12 +16,13 @@ Decidi desenvolver esse template devido à falta de soluções completas e funci
 - [Vite](https://vite.dev/guide/) - Build Tool for the web
 - [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
 - [daisyUI](https://daisyui.com/docs/intro/) - TailwindCSS plugin for faster, easer and cleaner development
-- ~~[Phosphor Icons](https://phosphoricons.com/) - A flexible icon family for interfaces, diagrams, presentations~~ [removido]
-- [Iconify](https://iconify.design/) - All popular icon sets, one framework [adicionado]
+- ~~[Phosphor Icons](https://phosphoricons.com/) - A flexible icon family for interfaces, diagrams, presentations~~ [removed]
+- [Iconify](https://iconify.design/) - All popular icon sets, one framework [added]
 - [maska](https://beholdr.github.io/maska/v3/#/) - Simple zero-dependency input mask library
 - [vite-plugin-yaml](https://github.com/Modyfi/vite-plugin-yaml) - Transform YAML file into Javascript object
 - [vite-html-plugin](https://www.npmjs.com/package/vite-plugin-html-template) - A vite plugin for processing html
 - [vue-google-map](https://vue3-google-map.com/getting-started/) - Composable components for easy use of Google Maps in Vue 3
+- [vue-router](https://router.vuejs.org/installation.html) - Expressive, configurable and convenient routing for Vue.js [added]
 - [VueUse](https://v8-9-4.vueuse.org/guide/) - UseDark component for reactive dark mode with auto data persistence 
 - [EmailJS](https://www.emailjs.com/) - Send Email Directly From Your Code
 - [AOS](https://michalsnik.github.io/aos/) - Animate on scroll Javascript library
