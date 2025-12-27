@@ -69,7 +69,7 @@
 <script setup>
 import { ref } from 'vue'
 import Contato from './sections.yaml'
-import GoogleMapLoader from '/src/components/partials/GoogleMap.vue'
+import GoogleMapLoader from '/src/views/partials/GoogleMap.vue'
 import { vMaska } from 'maska/vue'
 import emailjs from '@emailjs/browser'
 

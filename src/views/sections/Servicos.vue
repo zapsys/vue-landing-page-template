@@ -39,7 +39,7 @@
 </template>
 <script setup>
 import Servicos from './sections.yaml'
-import Social from '/src/components/partials/partials.yaml'
+import Social from '/src/views/partials/partials.yaml'
 
 let servicos = Servicos.servicos
 let social = Social.social[3] // Posição do WhatsApp no array de redes sociais (4ª posição)
