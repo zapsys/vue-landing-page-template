@@ -21,7 +21,7 @@ Decidi desenvolver esse template devido à falta de soluções completas e funci
 - [maska](https://beholdr.github.io/maska/v3/#/) - Simple zero-dependency input mask library
 - [vite-plugin-yaml](https://github.com/Modyfi/vite-plugin-yaml) - Transform YAML file into Javascript object
 - [vite-html-plugin](https://www.npmjs.com/package/vite-plugin-html-template) - A vite plugin for processing html
-- ~~[vue-google-map](https://vue3-google-map.com/getting-started/) - Composable components for easy use of Google Maps in Vue 3~~ [removed]
+- [vue-google-map](https://vue3-google-map.com/getting-started/) - Composable components for easy use of Google Maps in Vue 3
 - [vue-router](https://router.vuejs.org/installation.html) - Expressive, configurable and convenient routing for Vue.js [added]
 - [VueUse](https://v8-9-4.vueuse.org/guide/) - UseDark component for reactive dark mode with auto data persistence 
 - [EmailJS](https://www.emailjs.com/) - Send Email Directly From Your Code
@@ -74,7 +74,7 @@ Para o envio de emails pelo formulário de contato é necessário se cadastrar n
 **VITE_EMAILJS_SERVICE_ID**=service_id<br>
 **VITE_EMAILJS_TEMPLATE_ID**=template_id<br>
 **VITE_EMAILJS_PUBLIC_KEY**=public_key<br>
-~~**VITE_GOOGLE_MAPS_API_KEY**=google_maps_api_key~~ [removed]
+**VITE_GOOGLE_MAPS_API_KEY**=google_maps_api_key
 
 Para mostrar o mapa corretamente na seção de contato é necessário fazer login no [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/get-api-key) e gerar uma *api_key* (Maps Javascript API). De posse de sua chave adicione-a no arquivo **.env** como mostrado acima.
 
