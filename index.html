@@ -27,18 +27,13 @@
   <link rel="icon" type="image/x-icon" href="<%- SITE_ICON %>" />
 </head>
 <script>
-  // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-  document.documentElement.classList.toggle(
-    "dark",
-    localStorage.theme === "dark" ||
-    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches),
-  );
-  // Whenever the user explicitly chooses light mode
-  localStorage.theme = "light";
-  // Whenever the user explicitly chooses dark mode
-  localStorage.theme = "dark";
-  // Whenever the user explicitly chooses to respect the OS preference
-  localStorage.removeItem("theme");
+  if (localStorage.getItem('vueuse-color-scheme') === 'auto') {
+    localStorage.setItem('vueuse-color-scheme', 'dark');
+  }
+  const storedTheme = localStorage.getItem('vueuse-color-scheme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const useDark = storedTheme === 'dark' || (storedTheme === null && prefersDark);
+  document.documentElement.classList.toggle('dark', useDark);
 </script>
 
 <body>
