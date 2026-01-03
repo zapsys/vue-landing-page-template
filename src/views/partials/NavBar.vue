@@ -32,13 +32,9 @@
               <Icon icon="ph:github-logo" class="size-6 cursor-pointer" />
             </a>
           </p>
-          <p class="px-4">
-            <label class="swap swap-rotate">
-              <!-- this hidden checkbox controls the state -->
-              <Icon icon="ph:sun-bold" class="text-yellow-300 size-6 cursor-pointer" @click="toggleDark()" v-if="isDark" />
-              <Icon icon="ph:moon-bold"  class="text-gray-700 size-6 cursor-pointer" @click="toggleDark()" v-else />
-            </label>
-          </p>
+          <div class="px-2">
+            <ThemeChooser />
+          </div>
         </div>
       </div>
     </div>
@@ -80,6 +76,7 @@ import { onMounted, watch } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useDark, useToggle } from "@vueuse/core"
 import Item from './partials.yaml'
+import ThemeChooser from '../../components/ThemeChooser.vue'
 
 // Estado do tema usando VueUse
 const isDark = useDark({
